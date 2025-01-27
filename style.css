@@ -1,0 +1,28 @@
+body {
+    background-color: #f8f9fa;
+}
+.hero {
+    background-image: url('img/moke.jpg'); /* Lokasi gambar */
+    background-size: cover; /* Menyesuaikan ukuran gambar */
+    background-position: center; /* Memusatkan gambar */
+    background-repeat: no-repeat; /* Tidak mengulang gambar */
+    height: 400px; /* Tinggi hero */
+    display: flex;
+    align-items: center; /* Memusatkan teks secara vertikal */
+    justify-content: center; /* Memusatkan teks secara horizontal */
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8); /* Menambahkan bayangan pada teks */
+}
+
+.card img {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+#form-pemesanan form {
+    max-width: 700px;
+    margin: auto;
+}
+
+.modal-body p {
+    margin: 0 0 10px;
+}
